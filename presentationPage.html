@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quentin Della Mattia - Développeur Web à Montauban, Tarn-et-Garonne, et International</title>
+    <meta name="description" content="Quentin Della Mattia, développeur web à Montauban, Tarn-et-Garonne, expert en développement web, SEO, optimisation de site, Front-end et Back-end. Services pour entreprises locales à Montauban, Tarn-et-Garonne, et clients internationaux.">
+    <link rel="icon" type="image/webp" sizes="19x19" href="./assets/Profile.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="presentationStyle.css">
+</head>
+<body>
+    <section id="home" class="header-presentation">
+        <div class="banner">
+            <img class="gauche" src="/assets/nuage-gauche.webp" alt="a cloud">
+            <img class="nuage-milieu-gauche" src="/assets/nuage-milieu-gauche.webp" alt="a cloud">
+            <img class="nuage-milieu-droit" src="/assets/nuage-milieu-droit.webp" alt="a cloud">
+            <img class="droit" src="/assets/nuage-droit.webp" alt="a cloud">
+        </div>
+        <div class="snowflakes" aria-hidden="true"></div>
+        <div class="header-container">
+          <h1> Bonjour ! <br>Je me présente Quentin DM <br> développer front-end, et Back-end.</h1>
+          <img src="/assets/Profile.webp" alt="profil-picture">
+        </div>
+        <div id="goToPresentation" class="button-profil">
+          <div>Voir mon profil </div>
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+    </section>
+    <div class="header-content">
+      <header >
+        <img src="/assets/Profile.webp" alt="profil picture">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#home" class="nav-link" aria-current="page">Accueil</a></li>
+          <li class="nav-item"><a href="#presentation" class="nav-link">Présentation</a></li>
+          <li class="nav-item"><a href="#realisation" class="nav-link">Réalisation</a></li>
+          <li class="nav-item"><a href="#skill" class="nav-link">Compétences</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <span class="menu-icon" id="menuIcon"><i class="fa-solid fa-bars"></i></span> <!-- icône de poubelle -->
+      </header>
+    </div>
+    <main>
+      <div class="presentation" >
+        <div class="animation-continue"></div>
+        <article id="presentation">
+          <h2>Présentation</h2>
+          <p>Je suis un <b>développeur junior passionné</b> par le développement web, récemment <b>diplômé</b> et prêt à transformer des idées en réalité numérique. <b>Mes compétences</b> couvrent à la fois le <b>front-end</b> et le<b>back-end</b>, avec une expertise en <b>React</b>,<b>HTML</b>,<b>CSS</b>et<b>Node.js</b>. J'ai un intérêt particulier pour l'<b>optimisation de sites web</b> et l'<b>amélioration du SEO</b>, ce qui me permet de créer des sites performants, accessibles et bien référencés.</p>
+        </article>
+      </div>
+      <div class="realisation-and-contact">
+        <article id="realisation">
+          <h2 >Réalisation</h2>
+          <div class="filtre">
+            <button class="button-filter active" data-group="all">Tous</button>
+            <button class="button-filter" data-group="FrontEnd">FrontEnd</button>
+            <button class="button-filter" data-group="BackEnd">BackEnd</button>
+            <button class="button-filter" data-group="optimisation">optimisation</button>
+          </div>
+          <div class="projet">
+            <a href="https://github.com/QuentinDM/Della-mattia_Quentin_2_Booki_05032024/blob/master/README.md" data-group="all FrontEnd" target="_blank">
+                <section class="snowstorm-container" data-group="all FrontEnd">
+                    <h3>Booki, Agence de voyage</h3>
+                    <img src="/assets/image-projet/Agence-de-voyage-booki.webp" alt="image showing the website of travel agency">
+                </section>
+            </a>
+            <a href="https://github.com/QuentinDM/Portfolio-architecte-sophie-bluel/blob/master/README.md" data-group="all front-end" target="_blank">
+                <section class="snowstorm-container">
+                    <h3>Sophie Blue, site d'une architecte</h3>
+                    <img src="/assets/image-projet/Site-architecte-Sophie-Blue.webp" alt="image showing the website of architect">
+                </section>
+            </a>
+            <a href="https://github.com/QuentinDM/Nina-Carducci-Dev/blob/master/README.md" data-group="all optimisation" target="_blank">
+                <section class="snowstorm-container">
+                    <h3>Nina, site d'une photographe</h3>
+                    <img src="/assets/image-projet/Site-photographe-Nina-Carducci.webp" alt="image showing the website of photographer">
+                </section>
+            </a>
+            <a href="https://github.com/QuentinDM/kasa-app/blob/master/README.md" data-group="all FrontEnd" target="_blank">
+                <section class="snowstorm-container">
+                    <h3>Kasa, site location immobilière</h3>
+                    <img src="/assets/image-projet/Site-location-immo-kasa.webp" alt="image showing the website of property center">
+                </section>
+            </a>
+            <a href="https://github.com/QuentinDM/P7-Dev-Web-livres/blob/main/README.md" data-group="all BackEnd" target="_blank">
+                <section class="snowstorm-container" >
+                    <h3>Vieux grimoire, site notation de livre</h3>
+                    <img src="/assets/image-projet/Site-notation-livre-Vieux-grimoire.webp" alt="image showing book rating site">
+                </section>
+            </a>
+            <a href="https://github.com/QuentinDM/QWERTA-Site-pour-restaurateur/tree/main" data-group="all optimisation" target="_blank">
+                <section class="snowstorm-container" >
+                    <h3>Planification, du développement d'un site pour un client</h3>
+                    <img src="/assets/image-projet/Planification-du-developpement-site-client.webp" alt="image showing planning the development of a client site">
+                </section>
+            </a>
+          </div>
+        </article>
+      </div>
+      <div class="skill-section">
+        <article id="skill">
+          <h2>Mes compétences</h2>
+          <div class="skill-content">
+            <section>
+              <h3>HTML5</h3>
+              <i class="fa-brands fa-html5"></i>
+              <p class="description">HTML est le squelette d'un site web, essentiel pour toute personne souhaitant se lancer dans le développement d'un site web.</p>
+            </section>
+            <section>
+              <h3>CSS</h3>
+              <i class="fa-brands fa-css3-alt"></i>
+              <p class="description">CSS s'occupe de l'apparence de votre site web, transformant une page simple en quelque chose de visuellement agréable à regarder.</p>
+            </section>
+            <section>
+              <h3>JAVASCRIPT</h3>
+              <i class="fa-brands fa-js"></i>
+              <p class="description">JavaScript est ce qui rend un site web interactif et vivant, offrant une expérience utilisateur engageante et moderne.</p>
+            </section>
+            <section>
+              <h3>NODE.JS</h3>
+              <i class="fa-brands fa-node"></i>
+              <p class="description">Node.js est souvent utilisé pour créer des serveurs web rapides et efficaces, capables de gérer de nombreuses requêtes simultanément.</p>
+            </section>
+          </div>
+        </article>
+      </div>
+      <div class="contact realisation-and-contact">
+        <article id="contact">
+          <h2>Me contacter</h2>
+          <div class="contact-content">
+            <nav>
+              <ul class="social-nav">
+                  <li><a href="mailto:qludela@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                  <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+              </ul>
+          </nav>
+          </div>
+        </article>
+      </div>
+    </main>
+    <div class="footer-content">
+      <footer>
+        <img src="/assets/Profile.webp" alt="profil picture">
+        <ul class="social-nav-footer">
+          <li><a href="mailto:qludela@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+          <li><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
