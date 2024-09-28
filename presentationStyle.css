@@ -1,7 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Roboto", sans-serif;
 }
+
 html{ /* when widht of screen more than 1440 px, the body is in center of html */
     display: flex;
     justify-content: center;
@@ -9,6 +11,7 @@ html{ /* when widht of screen more than 1440 px, the body is in center of html *
 body{
     margin: inherit;
     width: 100%;
+    max-width: 1440px;
 }
 
 .header-presentation{
@@ -166,6 +169,8 @@ main > .presentation{
     background-color: #F5F5F5;
     position: relative;
     z-index: 3;
+    border-radius: 25px;
+    margin-top: 10px;
 }
 
 .snowshazard{
@@ -365,6 +370,7 @@ main > .realisation-and-contact{
     position: relative;
     z-index: 3;
     background: #f0f0f0;
+    border-radius: 25px;
   }
   
 .skill-section > article{
@@ -421,8 +427,8 @@ main > .realisation-and-contact{
     list-style: none;
     display: flex;
     margin-top: 100px;
-    gap: 250px;
-    font-size: 50px;
+    gap: 100px;
+    font-size: 25px;
 }
 
 .social-nav li {
@@ -433,37 +439,28 @@ main > .realisation-and-contact{
     border-radius: 50%;
 }
 
-.social-nav a {
-    position: absolute;
-}
-
 .social-nav i{
     color: #ffffff;
     background-color: #3F4859;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    margin-right: 10px;
 }
-@media (min-width: 768px){
-    .social-nav li:hover i{
-        animation: bounce 4s ease-in-out infinite;
-        color: #3F4859;
-        background-color: #ffffff;
-        border: #3F4859 solid 2px;
-    }
 
-    .social-nav li:active i{
-        width: 85px;
-        height: 85px;
-        font-size: 40px;
-        color: #ffffff;
-        background-color: #3F4859;
-    }
+.social-nav li:active i{
+    width: 65px;
+    height: 65px;
+    font-size: 26px;
+    color: #333333;
+    background-color: #ffffff;
+    border: solid #333333 2px;
 }
+
 
 
 /*********************************************FOOTER CSS **********************************/
@@ -591,6 +588,13 @@ footer > img{
         flex-direction: column; 
         gap: 10px;
       }
+    
+    .social-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -670,10 +674,7 @@ footer > img{
     /*Contact*/
     
     .social-nav {
-        display: flex;
-        flex-direction: column;
-        gap: 125px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     /*Footer*/
